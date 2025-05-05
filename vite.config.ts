@@ -3,9 +3,10 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/tinni_ka_buddayyyyyyy/',
+  base: '/', // Your GitHub repo name
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
 });
+
